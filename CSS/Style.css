@@ -16,8 +16,13 @@ main,header{
     margin-top: 2%;
 }
 
+button{
+    font-size: 130%;
+}
+
 button:hover{
     background-color: #04AA6D;
-    font-size: 160%;
+    color: white;
+    font-size: 180%;
     cursor: pointer;
 }
