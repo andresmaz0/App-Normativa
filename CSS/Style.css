@@ -18,6 +18,6 @@ main,header{
 
 button:hover{
     background-color: #04AA6D;
-    font-size: 120%;
+    font-size: 160%;
     cursor: pointer;
 }
