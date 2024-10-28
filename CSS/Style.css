@@ -1,0 +1,23 @@
+body{
+    padding-top: 10%;
+}
+
+h1,img,button{
+    position: relative;
+    margin: 2% auto;
+    text-align: center;
+}
+
+main,header{
+    text-align: center; 
+}
+
+.button{
+    margin-top: 2%;
+}
+
+button:hover{
+    background-color: #04AA6D;
+    font-size: 120%;
+    cursor: pointer;
+}
