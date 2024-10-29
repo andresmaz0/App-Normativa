@@ -7,7 +7,16 @@ h1{
     margin: 2% auto;
 }
 
-.opciones a,.inicio a{
+.opciones,.inicio{
     margin: 5% auto;
     text-align: center;
+}
+
+#desasentamiento,#normativa,#btn-inicio{
+    font-size: 150%;
+    width: 30%;
+}
+
+#desasentamiento{
+    margin: auto 5%;
 }
