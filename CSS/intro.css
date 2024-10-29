@@ -2,6 +2,12 @@ body{
     padding-top: 10%;
 }
 
-main,header{
-    text-align: center; 
+h1{
+    text-align: center;
+    margin: 2% auto;
+}
+
+.opciones a,.inicio a{
+    margin: 5% auto;
+    text-align: center;
 }
