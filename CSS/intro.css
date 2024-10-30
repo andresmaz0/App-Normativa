@@ -12,11 +12,16 @@ h1{
     text-align: center;
 }
 
-#desasentamiento,#normativa,#btn-inicio{
+#desasentamiento,#btn-inicio{
     font-size: 150%;
-    width: 30%;
+    width: 20%;
+}
+
+#normativa{
+    font-size: 150%;
+    width: 20%;
 }
 
 #desasentamiento{
-    margin: auto 5%;
+    margin: auto 2%;
 }
