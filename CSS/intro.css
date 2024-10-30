@@ -25,3 +25,24 @@ h1{
 #desasentamiento{
     margin: auto 2%;
 }
+
+/* Sección de responsividad */
+@media screen and (max-width:950px){
+    body{
+        width: auto;
+    }
+
+    #desasentamiento,#btn-inicio, #normativa{
+        font-size: 150%;
+        width: auto;
+    }
+
+    .opciones{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #desasentamiento{
+        margin: 0 4%;
+    }
+}
