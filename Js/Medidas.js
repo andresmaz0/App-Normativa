@@ -8,7 +8,7 @@ let validacion = () => {
     let rin = document.getElementById("rin").value;
 
     mensaje.value='SE RECOMIENDA CAMBIAR DE MUESTRA';
-    mensaje.value='LA MUESTRA ES APTA PARA ESTE ENSAYO'
+    mensaje.value='LA MUESTRA ES APTA PARA ESTE ENSAYO';
 }
 
-form.addEventListener("submit", )
+form.addEventListener("submit", validacion);
