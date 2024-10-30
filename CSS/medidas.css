@@ -19,10 +19,19 @@ h1{
 form{
     display: flex;
     flex-direction: column;
-    width: 50%;
     margin: 0 auto;
-}
-
-label{
     text-align: center;
 }
+
+label,#ancho,#relacion,#rin{
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#btn-verificar{
+    text-align: center;
+    margin: 2% auto;
+    width: 40%;
+}
+
