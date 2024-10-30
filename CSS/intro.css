@@ -39,10 +39,14 @@ h1{
 
     .opciones{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
 
-    #desasentamiento{
-        margin: 0 4%;
+    #normativa{
+        margin: 4% 0 1% 0;
+    }
+
+    #desasentamiento, #normativa{
+        width: 70%;
     }
 }
