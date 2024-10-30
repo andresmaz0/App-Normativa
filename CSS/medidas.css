@@ -1,0 +1,21 @@
+body{
+    padding-top: 5%;
+}
+
+h1,h3{
+    text-align: center;
+    margin: 3% auto;
+}
+
+h3{
+    color: red;
+}
+
+h1{
+    width: 80%;
+    background-color: rgb(154, 151, 151);
+}
+
+form{
+    margin: 0 auto;
+}
