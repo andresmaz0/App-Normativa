@@ -17,5 +17,12 @@ h1{
 }
 
 form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
     margin: 0 auto;
+}
+
+label{
+    text-align: center;
 }
