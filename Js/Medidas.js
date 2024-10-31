@@ -23,13 +23,14 @@ let validacion = (e) => {
     let radio_rin = rin/(2*25.4);
     let radio_llanta = radio_rin + altura;
     
-    if(ancho>1){
+    if(requisito_normativo>radio_llanta){
         mensaje.textContent='SE RECOMIENDA CAMBIAR DE MUESTRA';
-        console.log("ay");
-    }
+        mensaje.style.backgroundColor = "red";
 
-    //mensaje.textContent='SE RECOMIENDA CAMBIAR DE MUESTRA';
-    //mensaje.textContent='LA MUESTRA ES APTA PARA ESTE ENSAYO';
+    }else{
+        mensaje.textContent='LA MUESTRA ES APTA PARA ESTE ENSAYO';
+        mensaje.style.backgroundColor = "green";
+    }
 }
 
 form.addEventListener("submit", validacion);
