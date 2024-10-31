@@ -18,6 +18,9 @@ let validacion = (e) => {
     let relacion = document.getElementById("relacion").value;
     let rin = document.getElementById("rin").value;
     
+    let altura = ancho * (relacion/100);
+    let requisito_normativo = map.get(Number(rin));
+    
     if(ancho>1){
         mensaje.textContent='SE RECOMIENDA CAMBIAR DE MUESTRA';
         console.log("ay");
