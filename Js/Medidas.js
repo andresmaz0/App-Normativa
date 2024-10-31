@@ -17,7 +17,7 @@ let validacion = (e) => {
     let ancho = document.getElementById("ancho").value;
     let relacion = document.getElementById("relacion").value;
     let rin = document.getElementById("rin").value;
-    console.log(ancho, relacion, rin);
+    
     if(ancho>1){
         mensaje.textContent='SE RECOMIENDA CAMBIAR DE MUESTRA';
         console.log("ay");
