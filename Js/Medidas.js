@@ -1,11 +1,12 @@
 const form = document.getElementById("form");
+let datos_rin = [24,394,22,368,21,356,20,345,19,330,18,318,17,305,16,292,15,279,14,267,13,254,12,241,11,229,10,216];
 
 let mensaje = document.getElementById("mensaje");
 
 let validacion = (e) => {
     //quitando el evento por defecto del navegador
     e.preventDefault();
-    
+
     let ancho = document.getElementById("ancho").value;
     let relacion = document.getElementById("relacion").value;
     let rin = document.getElementById("rin").value;
