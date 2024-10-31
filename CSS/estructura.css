@@ -1,0 +1,62 @@
+body{
+    padding-top: 10%;
+}
+
+h1{
+    text-align: center;
+    margin: 2% auto;
+}
+
+.inicio,.regresar,.opciones{
+    margin: 5% auto;
+    text-align: center;
+}
+
+/* .opciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
+
+#btn-inicio,#btn-regresar{
+    font-size: 150%;
+    width: 20%;
+}
+
+#op-2,#op-1{
+    font-size: 150%;
+    text-align: center;
+}
+
+#op-1{
+    margin: 0% 3% 0% 0%;
+}
+
+/* Sección de responsividad */
+@media screen and (max-width:950px){
+    body{
+        width: auto;
+    }
+
+    #op-1,#btn-inicio, #op-2{
+        font-size: 150%;
+        width: auto;
+    }
+
+    .opciones{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #op-1{
+        margin: 0 auto;
+    }
+
+    #op-2{
+        margin: 4% 0 1% 0;
+    }
+
+    #op-1, #op-2{
+        width: 70%;
+    }
+}
