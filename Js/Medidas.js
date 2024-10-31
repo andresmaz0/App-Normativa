@@ -9,12 +9,12 @@ let validacion = (e) => {
     let rin = document.getElementById("rin").value;
     console.log(ancho, relacion, rin);
     if(ancho>1){
-        mensaje.value='SE RECOMIENDA CAMBIAR DE MUESTRA';
+        mensaje.textContent='SE RECOMIENDA CAMBIAR DE MUESTRA';
         console.log("ay");
     }
 
-    //mensaje.value='SE RECOMIENDA CAMBIAR DE MUESTRA';
-    //mensaje.value='LA MUESTRA ES APTA PARA ESTE ENSAYO';
+    //mensaje.textContent='SE RECOMIENDA CAMBIAR DE MUESTRA';
+    //mensaje.textContent='LA MUESTRA ES APTA PARA ESTE ENSAYO';
 }
 
 form.addEventListener("submit", validacion);
