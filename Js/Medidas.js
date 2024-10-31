@@ -20,6 +20,8 @@ let validacion = (e) => {
     
     let altura = ancho * (relacion/100);
     let requisito_normativo = map.get(Number(rin));
+    let radio_rin = rin/(2*25.4);
+    let radio_llanta = radio_rin + altura;
     
     if(ancho>1){
         mensaje.textContent='SE RECOMIENDA CAMBIAR DE MUESTRA';
