@@ -20,9 +20,11 @@ let validacion = (e) => {
     
     let altura = ancho * (relacion/100);
     let requisito_normativo = map.get(Number(rin));
-    let radio_rin = rin/(2*25.4);
+    let radio_rin = (rin/2)*25.4;
     let radio_llanta = radio_rin + altura;
     
+    console.log(altura,requisito_normativo,radio_rin,radio_llanta);
+
     if(requisito_normativo>radio_llanta){
         mensaje.textContent='SE RECOMIENDA CAMBIAR DE MUESTRA';
         mensaje.style.backgroundColor = "red";
