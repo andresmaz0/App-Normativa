@@ -26,3 +26,9 @@ button:hover{
     font-size: 180%;
     cursor: pointer;
 }
+
+@media screen and (max-width:650px){
+    img{
+        margin: 10% auto;
+    }
+}
