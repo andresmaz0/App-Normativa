@@ -12,12 +12,6 @@ h1{
     text-align: center;
 }
 
-/* .opciones{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-} */
-
 #btn-inicio,#btn-regresar{
     font-size: 150%;
     width: 20%;
