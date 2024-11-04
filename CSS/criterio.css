@@ -1,0 +1,34 @@
+body{
+    padding-top: 10%;
+}
+
+h1,h2{
+    text-align: center;
+    margin: 7% auto;
+}
+
+h1{
+    color: red;
+}
+
+.inicio,.regresar{
+    margin: 5% auto;
+    text-align: center;
+}
+
+#btn-inicio,#btn-regresar{
+    font-size: 150%;
+    width: 20%;
+}
+
+/* Sección de responsividad */
+@media screen and (max-width:650px){
+    body{
+        width: auto;
+    }
+
+    #btn-inicio{
+        font-size: 170%;
+        width: auto;
+    }
+}
