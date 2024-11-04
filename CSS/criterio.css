@@ -11,6 +11,13 @@ h1{
     color: red;
 }
 
+h2{
+    border-color: black;
+    border-style: solid;
+    padding: 4% 4%;
+    width: 50%;
+}
+
 .inicio,.regresar{
     margin: 5% auto;
     text-align: center;
