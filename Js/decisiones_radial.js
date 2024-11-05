@@ -1,4 +1,5 @@
-let cont_mensaje = 0;
+let cont_si = 0;
+let cont_no = 0;
 let si = document.getElementById("op-1");
 let no = document.getElementById("op-2");
 
