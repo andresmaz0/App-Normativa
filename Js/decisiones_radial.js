@@ -21,14 +21,15 @@ function mensaje (entrada){
     cont_mensaje+=entrada;
 
     switch (cont_mensaje){
+        //No una vez
         case -1:
         titulo[0].textContent = "La llanta tiene simbolo de Velocidad : T, H, V, W, Y, Z :";
         break;
 
+        // Si una vez
         case 1:
         window.location.href = "desicion_2018.html";
         console.log("entre en 1");
-        //titulo[0].textContent = 
         break;
     }
 }
