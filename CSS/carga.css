@@ -7,8 +7,13 @@ h1{
     margin: 2% auto;
 }
 
-.inicio,.regresar,.opciones{
-    margin: 5% auto;
+.opciones{
+    margin-bottom:5%;
+    text-align: center;
+}
+
+.inicio,.regresar{
+    margin: 2% auto;
     text-align: center;
 }
 
@@ -18,15 +23,15 @@ h1{
 }
 
 #op-2,#op-1{
+    align-items: center;
     font-size: 170%;
     text-align: center;
     border-radius: 60%;
-    padding: 4% 4%;
-    
+    padding: 4%;   
 }
 
 #op-1{
-    margin: 0% 3% 0% 0%;
+    margin-right: 3%;
     background-color: rgb(81, 208, 81);
 }
 
@@ -35,19 +40,24 @@ h1{
 }
 
 /* Sección de responsividad */
-@media screen and (max-width:650px){
+@media screen and (max-width:750px){
     body{
         width: auto;
     }
 
-    #op-1,#btn-inicio, #op-2{
-        font-size: 170%;
+    #op-1,#btn-inicio, #op-2, #btn-regresar{
+        font-size: auto;
         width: auto;
+    }
+
+    .regresar{
+        margin-bottom: 6%;
     }
 
     .opciones{
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
 
     #op-1{
@@ -60,5 +70,6 @@ h1{
 
     #op-1, #op-2{
         width: 15%;
+        padding: 6% 14% 6% 6%;
     }
 }
