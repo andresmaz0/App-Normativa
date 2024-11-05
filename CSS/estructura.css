@@ -3,27 +3,38 @@ body{
 }
 
 h1{
+    font-size: 240%;
     text-align: center;
     margin: 2% auto;
 }
 
-.inicio,.regresar,.opciones{
+.opciones{
+    margin: 5% auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.inicio,.regresar{
     margin: 5% auto;
     text-align: center;
 }
 
-#btn-inicio,#btn-regresar{
+#btn-regresar,#btn-inicio{
     font-size: 150%;
-    width: 20%;
+    width: 30%;
+    padding: 3% 0%;
 }
 
 #op-2,#op-1{
     font-size: 150%;
     text-align: center;
+    padding: 3% 0%;
+    width: 60%;
 }
 
 #op-1{
-    margin: 0% 3% 0% 0%;
+    margin-bottom: 4%;
 }
 
 /* Sección de responsividad */
@@ -37,11 +48,6 @@ h1{
         width: auto;
     }
 
-    .opciones{
-        display: flex;
-        flex-direction: column;
-    }
-
     #op-1{
         margin: 0 auto;
     }
@@ -52,5 +58,9 @@ h1{
 
     #op-1, #op-2{
         width: 70%;
+    }
+
+    #btn-regresar,#btn-inicio{
+        width: 50%;
     }
 }
