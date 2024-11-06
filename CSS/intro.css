@@ -17,6 +17,15 @@ h1{
     width: 20%;
 }
 
+#desasentamiento, #normativa{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#btn-inicio{
+    padding: 2%;
+}
+
 #normativa{
     font-size: 150%;
     width: 20%;
@@ -47,6 +56,10 @@ h1{
     }
 
     #desasentamiento, #normativa{
-        width: 70%;
+        width: 78%;
+    }
+
+    #btn-inicio, #desasentamiento, #normativa{
+        padding: 3%;
     }
 }
