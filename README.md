@@ -12,7 +12,9 @@
 
 <h3 align="center">La app es propiedad de:</h3>
 <p align="center">
-  <img src=https://github.com/user-attachments/assets/e203b5e7-8911-40e8-b583-33bee0b1028f />
+  <a href="https://squalitylab.com/">
+    <img src=https://github.com/user-attachments/assets/e203b5e7-8911-40e8-b583-33bee0b1028f />
+  </a>  
 </p>
 
 <br>
