@@ -18,6 +18,7 @@ main,header{
 
 button{
     font-size: 130%;
+    padding: 2%;
 }
 
 button:hover{
@@ -30,5 +31,9 @@ button:hover{
 @media screen and (max-width:650px){
     img{
         margin: 10% auto;
+    }
+
+    button{
+        padding: 4%;
     }
 }
