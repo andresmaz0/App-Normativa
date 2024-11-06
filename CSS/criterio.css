@@ -26,6 +26,7 @@ h2{
 #btn-inicio,#btn-regresar{
     font-size: 150%;
     width: 20%;
+    padding: 2%;
 }
 
 /* Sección de responsividad */
@@ -34,8 +35,9 @@ h2{
         width: auto;
     }
 
-    #btn-inicio{
+    #btn-inicio, #btn-regresar{
         font-size: 170%;
         width: auto;
+        padding: 2%;
     }
 }
