@@ -13,7 +13,6 @@ h3{
 
 h1{
     width: 50%;
-    background-color: rgb(154, 151, 151);
 }
 
 form{
@@ -30,7 +29,7 @@ label,#ancho,#relacion,#rin{
     padding: 0.5% 0%;
 }
 
-button, #btn-verificar{
+button{
     box-sizing: border-box;
 	display: inline-flex;
 	align-items: center;
@@ -51,7 +50,7 @@ button, #btn-verificar{
 	overflow: hidden;
 }
 
-button span,#btn-verificar {
+button span{
 	position: relative;
 	z-index: 2;
 	transition: .3s ease all;
@@ -61,7 +60,7 @@ button span,#btn-verificar {
 	content: "";
 	width: 100%;
 	height: 100%;
-	background: #c4b107;
+	background: #d6c319;
 	position: absolute;
 	z-index: 1;
 	top: -80px;
