@@ -9,10 +9,11 @@ h1,h3{
 
 h3{
     color: red;
+    font-size: 150%;
 }
 
 h1{
-    width: 50%;
+    width: 70%;
 }
 
 form{
@@ -95,6 +96,10 @@ button span{
 @media screen and (max-width:750px){
     #btn-verificar{
         width: 40%;
+    }
+
+    h3{
+        font-size: 120%;
     }
 
     #btn-regresar, #btn-inicio{
