@@ -31,6 +31,7 @@ label,#ancho,#relacion,#rin{
 }
 
 button, #btn-verificar{
+    box-sizing: border-box;
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
@@ -48,6 +49,28 @@ button, #btn-verificar{
 	border-radius: 5px;
 	position: relative;
 	overflow: hidden;
+}
+
+button span,#btn-verificar {
+	position: relative;
+	z-index: 2;
+	transition: .3s ease all;
+}
+
+#btn-verificar::after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: #c4b107;
+	position: absolute;
+	z-index: 1;
+	top: -80px;
+	left: 0;
+	transition: .3s ease-in-out all;
+}
+
+#btn-verificar:hover::after {
+	top: 0;
 }
 
 #btn-verificar{
