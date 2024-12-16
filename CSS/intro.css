@@ -5,6 +5,12 @@ body{
 h1{
     text-align: center;
     margin: 2% auto;
+    font-family: Delicious, sans-serif;
+}
+
+@font-face {
+    font-family:  Delicious;
+    src: url('Delicious-Roman.otf');
 }
 
 .opciones,.inicio{

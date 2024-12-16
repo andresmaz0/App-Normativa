@@ -2,9 +2,15 @@ body{
     padding-top: 10%;
 }
 
+@font-face {
+    font-family:  Delicious;
+    src: url('Delicious-Roman.otf');
+}
+
 h1{
     text-align: center;
     margin: 2% auto;
+    font-family: Delicious, sans-serif;
 }
 
 .opciones{

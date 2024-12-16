@@ -2,9 +2,15 @@ body{
     padding-top: 5%;
 }
 
+@font-face {
+    font-family:  Delicious;
+    src: url('Delicious-Roman.otf');
+}
+
 h1,h3{
     text-align: center;
     margin: 3% auto;
+    font-family: Delicious, sans-serif;
 }
 
 h3{
@@ -21,6 +27,7 @@ form{
     flex-direction: column;
     margin: 0 auto;
     text-align: center;
+    font-family: Delicious, sans-serif;
 }
 
 label,#ancho,#relacion,#rin{
