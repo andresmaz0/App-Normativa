@@ -88,7 +88,7 @@ button span{
 #btn-regresar span{
     transition: .4s ease-in-out all;
     position: absolute;
-    right: 34%;
+    right: calc(100%-40%);
 }
 
 #btn-regresar:hover span{
