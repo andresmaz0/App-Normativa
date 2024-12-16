@@ -12,27 +12,56 @@ h1{
     text-align: center;
 }
 
-#desasentamiento,#btn-inicio{
-    font-size: 150%;
-    width: 20%;
+.opciones{
+    width: 60%;
 }
 
-#desasentamiento, #normativa{
+#desasentamiento,#btn-inicio{
+    font-size: 150%;
+}
+
+#btn-inicio{
+    width: 30%;
+}
+
+#desasentamiento,#normativa{
+    width: 45%;
     padding-top: 2%;
     padding-bottom: 2%;
+    height: 50%;
+}
+
+button{
+    box-sizing: border-box;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background: #141414;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: .3s ease all;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
 }
 
 #btn-inicio{
     padding: 2%;
+    background-color: rgb(71, 139, 194);
 }
 
 #normativa{
     font-size: 150%;
-    width: 20%;
+    background-color: rgba(144, 0, 14, 0.745);
 }
 
 #desasentamiento{
     margin: auto 2%;
+    background-color: rgb(217, 135, 12);
 }
 
 /* Sección de responsividad */
@@ -51,12 +80,21 @@ h1{
         flex-direction: column;
     }
 
+    #desasentamiento{
+        margin: auto 0%;
+    }
+
     #normativa{
         margin: 4% 0 1% 0;
     }
 
     #desasentamiento, #normativa{
-        width: 78%;
+        width: 130%;
+        right: 15%;
+    }
+
+    #btn-inicio{
+        width: 40%;
     }
 
     #btn-inicio, #desasentamiento, #normativa{
