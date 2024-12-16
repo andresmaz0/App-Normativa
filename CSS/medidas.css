@@ -81,6 +81,44 @@ button span{
     padding: 2% 0%;
 }
 
+#btn-regresar{
+    background-color: rgb(69, 222, 69);
+}
+
+#btn-regresar span{
+    transition: .4s ease-in-out all;
+    position: absolute;
+    right: 34%;
+}
+
+#btn-regresar:hover span{
+     right:20px
+}
+
+#btn-regresar .icono{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    right: -16px;
+    transition: .3s ease-in-out all;
+    opacity: 0;
+}
+
+#btn-regresar svg{
+    width: 30px;
+    height: 30px;
+}
+
+#btn-regresar:hover .icono{
+    right: 85%;
+    opacity: 1;
+}
+
+#btn-inicio{
+    background-color: rgb(71, 139, 194);
+}
+
 .regresar, .inicio{
     text-align: center;
     margin-bottom: 3%;
