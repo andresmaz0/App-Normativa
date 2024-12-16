@@ -140,9 +140,17 @@ button span{
         font-size: 120%;
     }
 
-    #btn-regresar, #btn-inicio{
-        width: 30%;
+    #btn-inicio,#btn-regresar{
+        width: 50%;
         text-align: center;
         font-size: 120%;
+    }
+
+    #btn-regresar span{
+        right: 20%;
+    }
+
+    #btn-regresar:hover .icono{
+        right: 75%;
     }
 }
