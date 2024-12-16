@@ -32,9 +32,9 @@ h1{
 
 #desasentamiento,#normativa{
     width: 45%;
-    padding-top: 2%;
-    padding-bottom: 2%;
     height: 50%;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 
 button{
@@ -91,7 +91,8 @@ button{
     }
 
     #normativa{
-        margin: 4% 0 1% 0;
+        margin-top: 8%;
+        /* margin: 4% 0 1% 0; */
     }
 
     #desasentamiento, #normativa{
