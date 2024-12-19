@@ -11,17 +11,19 @@ h1,h2{
     text-align: center;
     margin: 7% auto;
     font-family: Delicious, sans-serif;
+    font-size: 180%;
 }
 
 h1{
     color: red;
+    font-weight: bold;
 }
 
 h2{
     border-color: black;
     border-style: solid;
     padding: 4% 4%;
-    width: 50%;
+    width: 60%;
 }
 
 .inicio,.regresar{
