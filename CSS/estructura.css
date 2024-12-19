@@ -12,10 +12,11 @@ h1{
     text-align: center;
     margin: 2% auto;
     font-family: Delicious, sans-serif;
+    width: 90%;
 }
 
 .opciones{
-    margin: 5% auto;
+    margin: 15% auto;
     text-align: center;
     display: flex;
     flex-direction: column;
