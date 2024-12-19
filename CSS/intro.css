@@ -7,6 +7,7 @@ h1{
     font-size: 220%;
     margin: 2% auto;
     font-family: Delicious, sans-serif;
+    width: 90%;
 }
 
 @font-face {
@@ -15,7 +16,7 @@ h1{
 }
 
 .opciones,.inicio{
-    margin: 5% auto;
+    margin: 15% auto;
     text-align: center;
 }
 
