@@ -11,7 +11,7 @@ h1,img,button{
 
 h1{
     font-size: 220%;
-    font-weight: 300;
+    font-weight: bold;
 }
 
 @font-face {
