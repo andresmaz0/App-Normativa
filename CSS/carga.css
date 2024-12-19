@@ -8,6 +8,8 @@ body{
 }
 
 h1{
+    font-size: 160%;
+    font-weight: bold;
     text-align: center;
     margin: 2% auto;
     font-family: Delicious, sans-serif;
@@ -115,8 +117,8 @@ button{
 
 @media screen and (max-width:490px){
     #op-1, #op-2{
-        width: 55%;
-        padding: 20% 0%;
+        width: 40%;
+        padding: 13% 0%;
     }
 
     #op-2{
