@@ -9,6 +9,11 @@ h1,img,button{
     font-family: Delicious, sans-serif;
 }
 
+h1{
+    font-size: 220%;
+    font-weight: 300;
+}
+
 @font-face {
     font-family:  Delicious;
     src: url('Delicious-Roman.otf');
